@@ -1,5 +1,6 @@
 # todolist
 > This is a To-Do list where you can add and remove your tasks for the day! :)
+![Screenshot_1](https://user-images.githubusercontent.com/93161838/154502832-41a44322-0410-45a7-b4a1-26a1c547b477.png)
 
 
 ## Built With
