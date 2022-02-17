@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: #4c6ece;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: Arial, sans-serif;
+}
+
+.todo-list {
+  background-color: white;
+  color: gray;
+  width: 60%;
+  margin: 10em auto;
+  box-shadow: 0.5em 0.5em 4em 0.5em;
+}
+
+.add {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.delete {
+  padding: 1em;
+  cursor: pointer;
+}
+
+i {
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.taskText {
+  color: gray;
+  margin: 0 0 0 1em;
+}
+
+.delete h3 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.item {
+  border-bottom: 1px solid lightgray;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.fa-solid {
+  color: red !important;
+  display: block !important;
+  font-size: 20px;
+}
