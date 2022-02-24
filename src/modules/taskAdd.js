@@ -21,8 +21,21 @@ const listCreate = (items) => {
     if (item.completed) {
       checked = ' checked';
     }
-    editedTasks += `<div class="item${checked}"><input class="checkbox" value="${item.index}" type="checkbox"${checked}><input class="taskText" type="text" value="${item.description}"><i class="far fa-trash-alt fa-lg"></i></div>`;
+    editedTasks += `
+    <div class="item${checked}">
+      <input
+        class="checkbox"
+        value="${item.index}"
+        type="checkbox"${checked}>
+      <input
+        class="taskText"
+        type="text"
+        value="${item.description}">
+      <i class="far fa-trash-alt fa-lg"></i>
+    </div>
+    `;
   });
+
   const list = document.getElementById('todolist');
   list.innerHTML = editedTasks;
   checkBoxEvent(items);
